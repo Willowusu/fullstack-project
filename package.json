@@ -1,0 +1,31 @@
+{
+    "name": "fullstack-project",
+    "version": "1.0.0",
+    "description": "A fullstack project in node, html, css, vanilla javascript",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "devStart": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Willowusu/fullstack-project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Willowusu/fullstack-project/issues"
+    },
+    "homepage": "https://github.com/Willowusu/fullstack-project#readme",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.2",
+        "express-ejs-layouts": "^2.5.1",
+        "mongoose": "^6.1.4"
+    },
+    "devDependencies": {
+        "dotenv": "^10.0.0",
+        "nodemon": "^2.0.15"
+    }
+}
